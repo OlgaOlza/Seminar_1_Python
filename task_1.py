@@ -12,7 +12,8 @@ m = 750
 Output:
 2
 """
-
+from math import ceil
 n = 700
 m = 750
-print((m + n - 1) // n)
+# print((m + n - 1) // n)
+print(ceil(m/n))
