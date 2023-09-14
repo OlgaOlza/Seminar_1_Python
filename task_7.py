@@ -10,10 +10,11 @@
 Input: 2016
 Output: YES
 """
-year = 100
-if year % 400 == 0 or year % 4 == 0 and year % 100 != 0:
+year = 1868
+if year % 400 == 0 or year % 4 == 0 and year % 100 != 0: #67 or 0 и 23 !=0
     print("YES")
 else:
     print("NO")
 
+# второе решение 
 print("YES" if year % 400 == 0 or year % 4 == 0 and year % 100 != 0 else "NO")
